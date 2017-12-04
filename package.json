@@ -1,6 +1,6 @@
 {
-  "name": "content-filter",
-  "version": "1.1.2",
+  "name": "koa-content-filter",
+  "version": "1.0.0",
   "description": "A simple but powerful content-filter. Also provides protection against NoSQL (like MongoDB) injection attacks on Node.js",
   "main": "index.js",
   "keywords": [
@@ -26,25 +26,27 @@
     "injection",
     "hash-injection"
   ],
-  "author": {
+  "author": [{
+    "name": "kingcc",
+    "github": "https://github.com/kingcc"
+  }, {
     "name": "efkan"
-  },
+  }],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/efkan/content-filter.git"
+    "url": "git+https://github.com/kingcc/koa-content-filter.git"
   },
   "dependencies": {},
   "readmeFilename": "README.md",
   "gitHead": "45cd90b7f664c1565b3a21b729b7d1613de0ad5a",
   "bugs": {
-    "url": "https://github.com/efkan/content-filter/issues"
+    "url": "https://github.com/kingcc/koa-content-filter/issues"
   },
-  "homepage": "https://github.com/efkan/content-filter#readme",
-  "_id": "content-filter@1.1.2",
+  "homepage": "https://github.com/kingcc/koa-content-filter#readme",
+  "_id": "koa-content-filter@1.0.0",
   "scripts": {},
-  "_shasum": "72cf766f427999269e2a421b02a2b87b626b95c2",
-  "_from": "content-filter@*",
+  "_from": "koa-content-filter@*",
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta6",
     "eslint": "^1.10.3"
